@@ -297,7 +297,7 @@ label1:
     delay(3000);
     Serial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
     delay(1000);  // Delay of 1000 milli seconds or 1 second
-    Serial.println("AT+CMGS=\"+919562342468\"\r"); // Replace x with mobile number
+    Serial.println("AT+CMGS=\"+9195.......8\"\r"); // Replace x with mobile number
     delay(1000);
     Serial.print("Crack Detected - Left.");// The SMS text you want to send
     delay(1000);
